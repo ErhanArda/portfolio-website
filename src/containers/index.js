@@ -1,3 +1,5 @@
 import HomePage from './HomePage'
+import Timeline from './Timeline'
+import Contact from './Contact'
 
-export {HomePage}
+export { HomePage, Timeline, Contact }
