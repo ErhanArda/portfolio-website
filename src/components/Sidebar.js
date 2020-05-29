@@ -26,7 +26,7 @@ const Sidebar = () => {
                 <MenuItems />
             </Sider>
             <Layout className="site-layout">
-                <Header className="site-layout-background" style={{ padding: 0 }}>
+                <Header className="site-layout-header" style={{ padding: 0 }}>
                     {React.createElement(collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
                         className: 'trigger',
                         onClick: toggle,

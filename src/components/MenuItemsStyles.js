@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-import {NavLink} from 'reactstrap'
+import { NavLink } from 'reactstrap'
 
 
 export const ProfilePicture = styled.div`

@@ -11,8 +11,7 @@ const App = () => {
 
   return (
     <div>
-      <Layout>
-        <Sidebar />
+<Layout style={{height: "100vh", overflow: "auto" }}>        <Sidebar />
       </Layout>
     </div>
   );
