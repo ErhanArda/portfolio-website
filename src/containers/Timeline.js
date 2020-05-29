@@ -1,10 +1,14 @@
 import React from 'react'
+import {TimelineComponent} from '../components'
 
 const Timeline = () => {
     return (
-        <div>
-            Timeline from container
-        </div>
+        <>
+            <h1>React Timeline</h1>
+            <TimelineComponent />
+            <p>This page is updated regularly and you are welcomed to come back and check my progress!</p>
+
+        </>
     )
 }
 
