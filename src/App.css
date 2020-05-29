@@ -1,38 +1,37 @@
 @import '~antd/dist/antd.css';
 
 #components-layout-demo-custom-trigger .trigger {
-  font-size: 18px;
-  line-height: 64px;
-  padding: 0 24px;
-  cursor: pointer;
-  transition: color 0.3s;
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
 }
 
 #components-layout-demo-custom-trigger .trigger:hover {
-  color: #1890ff;
+    color: #1890ff;
 }
 
 #components-layout-demo-custom-trigger .logo {
-  height: 32px;
-  background: rgba(255, 255, 255, 0.2);
-  margin: 16px;
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
 }
 .site-layout .site-layout-header {
-  background: #fff;
-  
+    background: #fff;
 }
 .site-layout .site-layout-background {
-  margin: 0;
-  padding: 2rem;
-  height: 100%;
+    margin: 0;
+    padding: 2rem;
+    height: 100%;
 	background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
 .ant-layout-content {
-  margin: 2rem 1rem;
-  padding: 2rem;
-  height: 100vh;
-  overflow: auto; 
+    margin: 2rem 1rem;
+    padding: 2rem;
+    height: 100vh;
+    overflow: auto; 
   /* background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
 
 
@@ -47,15 +46,15 @@
 
 body {
 	
-
 	font-family: 'Lato', sans-serif;
 }
 
 h1 {
 	text-align: center;
 }
-p{
-  text-align: center;
+
+.timep{
+    text-align: center;
 }
 
 #app {
@@ -249,67 +248,66 @@ footer a {
 }
 
 
-  
+
 
 .soc{
-  display: flex;
-  flex-direction: row;
-align-items: center;
-justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 
-a, svg{
-  display: flex}
-  a{
+/* a, svg{
+  display: flex} */
+/* a{
     display: flex;
-justify-content: center;
+    justify-content: center;
     align-items: center;
     height:100%; 
     width: 10%;
     margin-left: 1rem;
-  }
-    
-  svg{
-     width: 10rem;
-     
-  }
+  } */
+
+
+
+    svg{
+        width: 10rem;
+    }
 .icon{
-	  border-radius: 50%;
-	  background: black ;
-		color:#fff; 
-		 fill:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%; 
+    width: 10%;
+    margin-left: 1rem;
+	border-radius: 50%;
+	background: black ;
+	color:#fff; 
+	fill:#fff;
 
 }
 .icon:hover{
-
     background: #fff; 
     color: black;  
 	fill: black;
- 
 }
 
-  
-.facebook:hover{
-  
-    color: rgb(59, 87, 157);
-	fill: rgb(59, 87, 157);}
-  
+
 .github{
-  background: white;
-  color: black;  
-  fill: black;  
+    background: white;
+    color: black;  
+    fill: black;  
     }
 
 .github:hover{
 	background: #6441a5;
     color: white;
-fill: white;
+    fill: white;
 }
 
 .linkedin :hover{
-  background: #007BB6;
-
+    background: #007BB6;
     color: white;
     fill: white;
 	}
