@@ -6,7 +6,7 @@ const Timeline = () => {
         <>
             <h1>React Timeline</h1>
             <TimelineComponent />
-            <p>This page is updated regularly and you are welcomed to come back and check my progress!</p>
+            <p className="timep">This page is updated regularly and you are welcomed to come back and check my progress!</p>
 
         </>
     )
