@@ -1,7 +1,6 @@
-import HeaderButton from './About'
-import Sidebar from './Sidebar'
-import TimelineComponent from './TimelineComponent'
-import ContactItems from './ContactItems'
-import About from './About'
+import Sidebar from './SidebarItems'
+import TimelineComponent from './TimelineItem'
+import About from './HomePageItem'
+import FormItems from './ContactItemFolder'
 
-export {HeaderButton,Sidebar,TimelineComponent,ContactItems,About}
+export {Sidebar,TimelineComponent,FormItems,About}

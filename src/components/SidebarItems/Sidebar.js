@@ -6,7 +6,7 @@ import {
     MenuFoldOutlined,
 
 } from '@ant-design/icons';
-import Body from './Body'
+import Body from '../Body'
 import MenuItems from './MenuItems';
 
 

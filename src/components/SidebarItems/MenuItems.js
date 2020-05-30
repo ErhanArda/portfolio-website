@@ -3,7 +3,7 @@ import { Avatar } from 'antd';
 import { Link } from "react-router-dom"
 import {  NavItem, Tooltip, Col } from 'reactstrap';
 import { ProfilePicture, WhiteLink,Tabs } from './MenuItemsStyles'
-import navigation from '../navigation'
+import navigation from '../../navigation'
 import ContactItems from './ContactItems';
 
 
