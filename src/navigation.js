@@ -1,7 +1,7 @@
 const navigation = [
     {
         title:"ABOUT",
-        to:"/"
+        to:"/portfolio-website"
     },
     {
         title:"TIMELINE",
