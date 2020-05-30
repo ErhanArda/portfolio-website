@@ -23,15 +23,19 @@
     height: 20vh;
 
 } */
+.ant-layout-sider{
+background: #1f1f1f;
+} 
 
 .site-layout .site-layout-header {
     background: #fff;
 }
 .site-layout .site-layout-background {
     margin: 0;
-    padding: 2rem;
+    padding: 6rem;
     height: 100%;
-	background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+	background:#F6F5F7
+    ;
 }
 
 .ant-layout-content {

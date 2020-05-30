@@ -1,11 +1,12 @@
 import React from 'react'
 import {About} from '../components'
+import { Container } from 'reactstrap'
 
 const HomePage = () => {
     return (
-        <div>
+        <Container>
             <About/>
-        </div>
+        </Container>
     )
 }
 
