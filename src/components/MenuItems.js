@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { Avatar } from 'antd';
 import { Link } from "react-router-dom"
-import { Nav, NavItem, Tooltip, Col } from 'reactstrap';
-import { ProfilePicture, WhiteLink } from './MenuItemsStyles'
+import {  NavItem, Tooltip, Col } from 'reactstrap';
+import { ProfilePicture, WhiteLink,Tabs } from './MenuItemsStyles'
 import navigation from '../navigation'
 import ContactItems from './ContactItems';
 
@@ -41,7 +41,7 @@ const MenuItems = () => {
 
             <div style={{ display: "flex", flexDirection: "column", alignSelf: "center", justifyContent: "center", marginTop: "5rem" }}>
                 <Col>
-                    <Nav className="mr-auto">
+                    <Tabs>
                         {
                             navigation.map((nav) => {
                                 return <NavItem>
@@ -49,7 +49,7 @@ const MenuItems = () => {
                                 </NavItem>
                             })
                         }
-                    </Nav>
+                    </Tabs>
                 </Col>
             </div>
             {/* <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>

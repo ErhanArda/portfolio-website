@@ -1,5 +1,5 @@
 @import '~antd/dist/antd.css';
-
+/* 
 #components-layout-demo-custom-trigger .trigger {
     font-size: 18px;
     line-height: 64px;
@@ -16,7 +16,15 @@
     height: 32px;
     background: rgba(255, 255, 255, 0.2);
     margin: 16px;
-}
+} */
+
+/* .ant-layout-sider-children{
+    background: greenyellow;
+    height: 20vh;
+
+} */
+
+
 .site-layout .site-layout-header {
     background: #fff;
 }
