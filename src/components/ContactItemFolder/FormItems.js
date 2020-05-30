@@ -1,5 +1,10 @@
 import React from 'react'
+import ReCAPTCHA from "react-google-recaptcha";
 import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+
+function onChange(value) {
+    console.log("Captcha value:", value);
+}
 
 const FormItems = () => {
     return (
@@ -8,7 +13,7 @@ const FormItems = () => {
 
 
             <div style={{ display: "flex", flexWrap: "wrap", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
-            <h1>Contact</h1>
+                <h1>Contact</h1>
 
                 <Form>
                     <FormGroup>
@@ -23,8 +28,8 @@ const FormItems = () => {
                         <Label for="exampleEmail">Subject</Label>
                         <Input type="text" name="Subject" id="exampleEmail" placeholder="Subject" />
                     </FormGroup>
-                   
-                  
+
+
                     <FormGroup>
                         <Label for="exampleText">Message</Label>
                         <Input type="textarea" name="text" id="exampleText" placeholder="Message" />
@@ -36,7 +41,12 @@ const FormItems = () => {
                             This is some placeholder block-level help text for the above input.
                             It's a bit lighter and easily wraps to a new line.
         </FormText>
-      
+
+                        <ReCAPTCHA
+                            sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+                            onChange={onChange}
+                        />
+
                     </FormGroup>
                     <Button>Submit</Button>
                 </Form>
@@ -70,11 +80,15 @@ const FormItems = () => {
 
                 {/* <p className="timep">Don't hesitate to write me!</p> */}
                 <FormText color="muted">
-                Don't hesitate to write me!
+                    Don't hesitate to write me!
         </FormText>
+
+
             </div>
         </>
     )
 }
 
 export default FormItems
+
+
