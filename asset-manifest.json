@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ErhanArda/portfolio-website/static/css/main.a51f08d5.chunk.css",
+    "main.js": "/ErhanArda/portfolio-website/static/js/main.df2eae4d.chunk.js",
+    "main.js.map": "/ErhanArda/portfolio-website/static/js/main.df2eae4d.chunk.js.map",
+    "runtime-main.js": "/ErhanArda/portfolio-website/static/js/runtime-main.24bc5204.js",
+    "runtime-main.js.map": "/ErhanArda/portfolio-website/static/js/runtime-main.24bc5204.js.map",
+    "static/css/2.fb20f2ef.chunk.css": "/ErhanArda/portfolio-website/static/css/2.fb20f2ef.chunk.css",
+    "static/js/2.ba263c43.chunk.js": "/ErhanArda/portfolio-website/static/js/2.ba263c43.chunk.js",
+    "static/js/2.ba263c43.chunk.js.map": "/ErhanArda/portfolio-website/static/js/2.ba263c43.chunk.js.map",
+    "index.html": "/ErhanArda/portfolio-website/index.html",
+    "precache-manifest.acdfe18471c8c21fb3b3ef04e55161fa.js": "/ErhanArda/portfolio-website/precache-manifest.acdfe18471c8c21fb3b3ef04e55161fa.js",
+    "service-worker.js": "/ErhanArda/portfolio-website/service-worker.js",
+    "static/css/2.fb20f2ef.chunk.css.map": "/ErhanArda/portfolio-website/static/css/2.fb20f2ef.chunk.css.map",
+    "static/css/main.a51f08d5.chunk.css.map": "/ErhanArda/portfolio-website/static/css/main.a51f08d5.chunk.css.map",
+    "static/js/2.ba263c43.chunk.js.LICENSE.txt": "/ErhanArda/portfolio-website/static/js/2.ba263c43.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.24bc5204.js",
+    "static/css/2.fb20f2ef.chunk.css",
+    "static/js/2.ba263c43.chunk.js",
+    "static/css/main.a51f08d5.chunk.css",
+    "static/js/main.df2eae4d.chunk.js"
+  ]
+}
