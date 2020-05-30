@@ -22,7 +22,10 @@ const Sidebar = () => {
 
     return (
         <>
-            <Sider trigger={null} collapsible collapsed={collapsed}>
+
+            <Sider
+            trigger={null} 
+            collapsible collapsed={collapsed}>
                 <MenuItems />
             </Sider>
             <Layout className="site-layout">

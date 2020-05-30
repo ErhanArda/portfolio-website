@@ -1,6 +1,6 @@
 import React from 'react'
 import ReCAPTCHA from "react-google-recaptcha";
-import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import { Button, Form, FormGroup, Label, Input, FormText, Row, Col, Container } from 'reactstrap';
 
 function onChange(value) {
     console.log("Captcha value:", value);
@@ -8,51 +8,48 @@ function onChange(value) {
 
 const FormItems = () => {
     return (
-        <>
+        <Container>
 
+            <               h1>Contact</h1>
 
+            <Form>
 
-            <div style={{ display: "flex", flexWrap: "wrap", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
-                <h1>Contact</h1>
-
-                <Form>
-                    <FormGroup>
+                <Row>
+                    <Col xs="6"><FormGroup>
                         <Label for="text">Name</Label>
                         <Input type="text" name="text" id="text" placeholder="Name" />
-                    </FormGroup>
-                    <FormGroup>
+                    </FormGroup></Col>
+                    <Col xs="6">  <FormGroup>
                         <Label for="exampleEmail">Email</Label>
                         <Input type="email" name="email" id="exampleEmail" placeholder="Email" />
-                    </FormGroup>
-                    <FormGroup>
-                        <Label for="exampleEmail">Subject</Label>
-                        <Input type="text" name="Subject" id="exampleEmail" placeholder="Subject" />
-                    </FormGroup>
+                    </FormGroup></Col>
+                </Row>
+
+                <FormGroup>
+                    <Label for="exampleEmail">Subject</Label>
+                    <Input type="text" name="Subject" id="exampleEmail" placeholder="Subject" />
+                </FormGroup>
 
 
-                    <FormGroup>
-                        <Label for="exampleText">Message</Label>
-                        <Input type="textarea" name="text" id="exampleText" placeholder="Message" />
-                    </FormGroup>
-                    <FormGroup>
-                        <Label for="exampleFile">File</Label>
-                        <Input type="file" name="file" id="exampleFile" />
-                        <FormText color="muted">
-                            This is some placeholder block-level help text for the above input.
-                            It's a bit lighter and easily wraps to a new line.
-        </FormText>
+                <FormGroup>
+                    <Label for="exampleText">Message</Label>
+                    <Input type="textarea" name="text" id="exampleText" placeholder="Message" />
+                </FormGroup>
 
-                        <ReCAPTCHA
+                <FormGroup>
+                <ReCAPTCHA
                             sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
                             onChange={onChange}
                         />
-
-                    </FormGroup>
-                    <Button>Submit</Button>
-                </Form>
+                </FormGroup>
+                <Button>Submit</Button>
 
 
+            </Form>
 
+
+
+            <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
 
                 <div style={{ display: "flex", justifyContent: "center", width: "25rem" }}>
                     <a href="https://codepen.io/erhanarda" target="_blank" rel="noopener noreferrer" className="icon codepen" title="CodePen">
@@ -81,11 +78,11 @@ const FormItems = () => {
                 {/* <p className="timep">Don't hesitate to write me!</p> */}
                 <FormText color="muted">
                     Don't hesitate to write me!
-        </FormText>
+                </FormText>
 
 
             </div>
-        </>
+        </Container>
     )
 }
 
