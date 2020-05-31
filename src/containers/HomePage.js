@@ -1,11 +1,11 @@
 import React from 'react'
-import {About} from '../components'
+import { About } from '../components'
 import { Container } from 'reactstrap'
 import resumeData from '../resumeData'
 const HomePage = () => {
     return (
         <Container>
-            <About resumeData={resumeData}/>
+            <About resumeData={resumeData} />
         </Container>
     )
 }

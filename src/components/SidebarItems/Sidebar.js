@@ -22,7 +22,6 @@ const Sidebar = () => {
 
     return (
         <>
-
             <Sider
             trigger={null} 
             collapsible collapsed={collapsed}>
