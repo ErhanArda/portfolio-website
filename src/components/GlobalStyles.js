@@ -24,16 +24,26 @@ export const GlobalStyles = createGlobalStyle`
     .responsive-headline{
         color: ${({ theme }) => theme.text};
         text-shadow: 
-    0 0 0.033em #fff, 
-    0 0 0.08em #fff,
-    0 0 0.1em rebeccapurple, 
+    0 0 0.033em pink, 
+    0 0 0.08em pink,
+    0 0 0.1em blue, 
     0 0 0.2em rebeccapurple, 
     0 0 0.3em rebeccapurple, 
     0 0 1em rebeccapurple,
     0 0 1.5em rebeccapurple;
     }
-    h1, h2, h3, h4, h5, h6{
+    
+    h2, h3, h4, h5, h6{
         color: ${({ theme }) => theme.text};
+        text-shadow: 
+    0 0 0.033em purple, 
+    0 0 0.08em purple,
+    0 0 0.1em pink, 
+    0 0 0.2em pink, 
+    0 0 0.3em pink, 
+    0 0 1em pink,
+    0 0 1.5em pink;
+    }
     }
     }
         
