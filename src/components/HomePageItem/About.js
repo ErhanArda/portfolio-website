@@ -7,14 +7,14 @@ const About = ({ resumeData }) => {
     useEffect(() => {
         setTimeout(() => {
             setIsLoading(false)
-        }, 2000)
+        }, 1000)
     }, [])
 
     return (
         <>
 
             {isLoading ?
-                <h1>Welcome Everybody</h1> :
+                <h1>test version</h1> :
                 <div>
                     <div className="logo">
                     <div className="logo-text">

@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components"
+
 export const GlobalStyles = createGlobalStyle`
 .site-layout .site-layout-background{
     background: ${({ theme }) => theme.body};
@@ -20,7 +21,7 @@ export const GlobalStyles = createGlobalStyle`
     .site-layout .site-layout-header {
         background: ${({ theme }) => theme.body};
     }
-   .responsive-headline{
+    .responsive-headline{
         color: ${({ theme }) => theme.text};
         text-shadow: 
     0 0 0.033em #fff, 
@@ -33,7 +34,6 @@ export const GlobalStyles = createGlobalStyle`
     }
     h1, h2, h3, h4, h5, h6{
         color: ${({ theme }) => theme.text};
-
     }
     }
         
