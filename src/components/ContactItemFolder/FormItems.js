@@ -2,6 +2,7 @@ import React from 'react'
 // import ReCAPTCHA from "react-google-recaptcha";
 import { Formik } from 'formik'
 import * as Yup from "yup"
+import axios from 'axios';
 import { Button, Form, FormGroup, FormFeedback, Label, Input, Row, Col, Container } from 'reactstrap';
 import Links from "./Links"
 
@@ -29,6 +30,8 @@ const FormItems = () => {
                     email: "",
                     subject: "",
                     message: "",
+                    sent:false,
+                    buttonText:'SendMessage'
                 }}
                 validationSchema={validationSchema}
             >
@@ -113,7 +116,7 @@ const FormItems = () => {
                             </FormGroup>
                             <FormGroup>
                             </FormGroup>
-                            <Button color="primary">Submit</Button>
+                            <Button color="primary">{values.buttonText}</Button>
                         </Form>
                     )}
             </Formik>
