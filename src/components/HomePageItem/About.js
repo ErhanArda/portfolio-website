@@ -14,7 +14,7 @@ const About = ({ resumeData }) => {
         <>
 
             {isLoading ?
-                <h1>test version</h1> :
+                <h1>hello</h1> :
                 <div>
                     <div className="logo">
                     <div className="logo-text">
